@@ -1,0 +1,391 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>HTML Email</title>
+	<style type="text/css">
+		body {
+			Margin: 0;
+			padding: 0;
+			background-color: #cccccc;
+			font-family: calibri;
+		}
+		
+		table {
+			border-spacing: 0;
+		}
+		
+		td {
+			padding: 0;
+		}
+		
+		img {
+			border: 0;
+		}
+
+		.wrapper {
+			width: 100%;
+			background-color: #cccccc;
+			table-layout: fixed;
+			padding-bottom: 50px;
+		}
+
+		.outer {
+			width: 100%;
+			max-width: 640px;
+			background-color: white;
+			border-spacing: 0;
+			table-layout: fixed;
+		}
+
+		.mainnav a{
+			box-sizing: border-box;
+			text-decoration: none;
+			color: #6a6a6a;
+			border-left: 1px solid black;
+			padding: 0 35px;
+		}
+
+		.textneedafter::after{
+			content: "Off";
+			position: absolute;
+    			top: -16px;
+    			right: -4px;
+			font-size: 30px;
+			line-height: 0;
+			color: #003a8b;
+			font-weight: bold;
+		}
+
+
+
+
+
+
+		@media screen and (max-width: 600px) { 
+
+			.mainnav a{
+				padding: 0 18px;
+			}
+			.tabblog {
+				width: 100%;
+			}
+			.tabblogbg {
+				width: 100% !important;
+			}
+			.headerp {
+				width: 250px !important;
+				line-height: 1;
+			}
+			.logo {
+				font-size: 25px !important;
+			}
+
+		}
+		@media screen and (max-width: 400px) { 
+			.headerp {
+				width: 200px !important;
+			}
+			.logo {
+				font-size: 20px !important;
+			}
+			.headerpadding {
+				padding: 5px !important;
+			}
+			.mainnav a{
+				padding: 0 10px;
+			}
+		}
+	</style>
+</head>
+
+<body>
+<center class="wrapper">
+<table class="outer" align="center">
+
+
+<!-- Top Border -->
+
+<tr>
+<td style="height: 10px;background-color: #cf3720;"></td>
+</tr>
+
+
+<!-- Header -->
+
+<tr style="width: 100%;">
+<td>
+
+<table style="width: 100%;">
+<tr>
+<td class="headerpadding" style="padding: 7px 20px;display: flex; align-items: center; justify-content: space-between;">
+
+<table style="display: inline-block;">
+<tr>
+<td>
+<p class="logo" style="font-size: 30px;font-weight: 900;line-height: 0;color: #003a8b;">Travel<span style="color: #cf3720;">Destiny</span></p>
+</td>
+</tr>
+</table>
+
+<table style="display: inline-block;float: right;">
+<tr>
+<td style="display: flex;align-items: center;">
+
+<table style="display: inline-block;">
+<tr>
+<td>
+<img src="./i1.jpg">
+</td>
+</tr>
+</table>
+
+<table style="display: inline-block;padding-left: 10px;">
+<tr>
+<td>
+<p class="headerp" style="width: 300px;color: #6a6a6a;">Get Rs.200 Free Wallet Cash on Downloading our App for the first time.</p>
+</td>
+</tr>
+</table>
+
+</td>
+</tr>
+</table>
+
+</td>
+</tr>
+</table>
+
+
+
+
+
+</td>
+</tr>
+
+<!-- Main Nav -->
+
+<tr class="mainnav">
+<td>
+
+
+
+
+<table style="width: 100%;Margin-bottom: 10px;">
+<tr>
+<td style="text-align: center;">
+<a href="#" style="border-left: 0;padding-left: 0;">Flight</a>
+<a href="#">Hotel</a>
+<a href="#">Bus</a>
+<a href="#">Holidays</a>
+<a href="#" style="padding-right: 0;">Flight+Hotel</a>
+</td>
+</tr>
+</table>
+
+
+
+
+
+</td>
+</tr>
+
+<!-- Hero Section -->
+
+<tr>
+<td>
+
+
+
+
+
+
+<table style="width: 100%;">
+<tr>
+<td style="background-image: url('./i2.jpg');">
+
+<table style="padding: 25px 15px 100px;">
+
+
+<tr>
+<td>
+<p style="color: #003a8b;font-size: 32px;line-height: 0;">Family Vocation</p>
+<p style="color: #003a8b;font-size: 26px;line-height: 0;">Upto</p>
+<p class="textneedafter" style="position: relative;color: #e1321f;Margin: 50px 0 40px 10px;font-size: 100px;font-weight: 900;line-height: 0;">30%</p>
+<table>
+<tr><td style="height: 1px;background-color: black;width: 200px;"></td></tr></table>
+<p style="font-size: 71px;color: #e1321f;font-weight: 900;Margin: 0 0 10px;line-height: 1;">London</p>
+<a href="#" style="Margin: 0 44px;color: white;background-color: #003a8b;padding: 10px 30px;border-radius: 5px;text-decoration: none;">Book Now</a>
+<p style="color: #003a8b;font-size: 12px;text-align: center;">*T&C Apply</p>
+</td>
+</tr>
+
+
+</table>
+
+</td>
+</tr>
+</table>
+
+
+
+
+
+
+
+
+</td>
+</tr>
+
+
+
+<!-- Some Text under hero section-->
+
+<tr>
+<td>
+
+
+<table style="width: 100%;">
+<tr>
+<td>
+<p style="color: #6a6a6a;padding: 15px 20px;Margin: 0;font-size: 20px;">6N/7D Packages starting at Rs68,990</p>
+</td>
+</tr>
+</table>
+
+
+</td>
+</tr>
+
+
+
+<!-- Blog Section -->
+
+<tr>
+<td>
+
+
+<table style="width: 100%;background-color: #f3f3f3;">
+<tr>
+<td>
+
+<table style="width: 100%;>
+<tr>
+<td style="padding: 25px;">
+
+<table style="width: 100%;">
+<tr>
+<td>
+<p style="Margin: 20px 0 0;color: #4b4b4b;font-size: 20px;font-weight: 700;text-align: center;">Recommended Packages</p>
+</td>
+</tr>
+</table>
+
+<table style="width: 100%;padding: 0 25px;">
+<tr>
+<td style="display: flex;align-items: center;justify-content: space-between;flex-wrap: wrap;">
+
+<table class="tabblog" style="background-color: white;border: 1px solid #d8d8d8;Margin-top: 20px;">
+<tr>
+<td>
+<a href="#" style="text-decoration: none;">
+<p style="color: #6a6a6a;padding: 18px 0 10px 15px;Margin: 0;">Modern Hong Kong</p>
+<table class="tabblogbg" style="background-image: url('./p1.jpg');background-size: cover;background-position: center;width: 275px;height: 130px;"><tr><td></td></tr></table>
+<p style="color: #cf3720;padding: 13px 0 10px 20px;Margin: 0;">Rs. 55,000 <span style="font-size: 12px;color: #6a6a6a;">5N/6D</span></p>
+</a>
+</td>
+</tr>
+</table>
+
+<table class="tabblog" style="background-color: white;border: 1px solid #d8d8d8;Margin-top: 20px;">
+<tr>
+<td>
+<a href="#" style="text-decoration: none;">
+<p style="color: #6a6a6a;padding: 18px 0 10px 15px;Margin: 0;">Jewels of Eastern Europe</p>
+<table class="tabblogbg" style="background-image: url('./p2.jpg');background-size: cover;background-position: center;width: 275px;height: 130px;"><tr><td></td></tr></table>
+<p style="color: #cf3720;padding: 13px 0 10px 20px;Margin: 0;">Rs. 55,000 <span style="font-size: 12px;color: #6a6a6a;">5N/6D</span></p>
+</a>
+</td>
+</tr>
+</table>
+
+<table class="tabblog" style="background-color: white;border: 1px solid #d8d8d8;Margin-top: 20px;">
+<tr>
+<td>
+<a href="#" style="text-decoration: none;">
+<p style="color: #6a6a6a;padding: 18px 0 10px 15px;Margin: 0;">Beacutiful and clean Turkey</p>
+<table class="tabblogbg" style="background-image: url('./p4.jpeg');background-size: cover;background-position: center;width: 275px;height: 130px;"><tr><td></td></tr></table>
+<p style="color: #cf3720;padding: 13px 0 10px 20px;Margin: 0;">Rs. 55,000 <span style="font-size: 12px;color: #6a6a6a;">5N/6D</span></p>
+</a>
+</td>
+</tr>
+</table>
+
+<table class="tabblog" style="background-color: white;border: 1px solid #d8d8d8;Margin-top: 20px;">
+<tr>
+<td>
+<a href="#" style="text-decoration: none;">
+<p style="color: #6a6a6a;padding: 18px 0 10px 15px;Margin: 0;">The land of BTS Korea</p>
+<table class="tabblogbg" style="background-image: url('./p3.jpg');background-size: cover;background-position: center;width: 275px;height: 130px;"><tr><td></td></tr></table>
+<p style="color: #cf3720;padding: 13px 0 10px 20px;Margin: 0;">Rs. 55,000 <span style="font-size: 12px;color: #6a6a6a;">5N/6D</span></p>
+</a>
+</td>
+</tr>
+</table>
+
+</td>
+</tr>
+</table>
+
+<table style="width: 100%;Margin: 30px 0 25px;text-align: center;">
+<tr>
+<td>
+<a href="#" style=";padding: 10px 30px;text-decoration: none;color: white;border-radius: 5px;background-color: #cf3720;font-size: 20px;">Expolore other destinations</a>
+</td>
+</tr>
+</table>
+
+
+
+
+</td>
+</tr>
+</table>
+
+
+</td>
+</tr>
+
+
+
+<!-- Footer -->
+
+<tr>
+<td>
+
+<table style="width: 100%;text-align: center;">
+<tr>
+<td>
+
+<p style="color: #6a6a6a;Margin: 15px 0 10px;">Follow Us On:</p>
+<a href="#" style="Margin: 0 2px;"><img src="./s1.jpg"></a>
+<a href="#" style="Margin: 0 2px;"><img src="./s2.jpg"></a>
+<a href="#" style="Margin: 0 2px;"><img src="./s3.jpg"></a>
+<p style="Margin: 20px 0 2px;font-size: 14px;color: #6a6a6a;">Click here to view our contact details. All prices are subject to change.</p>
+<p style="Margin: 2px 0 15px;font-size: 14px;color: #6a6a6a;">Read our <a href="#" style="color: #cf3720;">Privacy Policy</a> | <a href="#" style="color: #cf3720;">Unsubscribe</a></p>
+
+</td>
+</tr>
+</table>
+
+</td>
+</tr>
+
+
+
+</table>
+</center>
+</body>
+</html>
